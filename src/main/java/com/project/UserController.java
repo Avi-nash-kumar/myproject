@@ -28,6 +28,12 @@ public class UserController {
 		return userRepo.findAll();
 	}
 	
+	@GetMapping("/new/api")
+	public String newApi(String api)
+	{
+		return "This is new API";
+	}
+	
 	
 
 }
