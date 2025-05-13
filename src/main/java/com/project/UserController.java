@@ -40,6 +40,12 @@ public class UserController {
 		return "avinash";
 	}
 	
+	@GetMapping("/ravi")
+	public String raviApi(String ravi)
+	{
+		return "ravi";
+	}
+	
 	
 
 }
