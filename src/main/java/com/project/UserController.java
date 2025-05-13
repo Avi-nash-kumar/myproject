@@ -34,6 +34,12 @@ public class UserController {
 		return "This is new API";
 	}
 	
+	@GetMapping("/avinash")
+	public String avinashApi(String avi)
+	{
+		return "avinash";
+	}
+	
 	
 
 }
