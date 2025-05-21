@@ -46,6 +46,11 @@ public class UserController {
 		return "ravi";
 	}
 	
+	@GetMapping("/sana")
+	public String sanaApi(String sana)
+	{
+		return "abcd";
+	}
 	
 
 }
